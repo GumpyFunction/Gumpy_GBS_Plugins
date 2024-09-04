@@ -1,5 +1,6 @@
 # Gumpy_GBS_Plugins
 
+- by Gumpy Function (I'm hoping to share more in the future once I get a better handle on editing the engine)
 - Made with GB Studio 4.1
 
 ## Invert Dialogue Background Color
