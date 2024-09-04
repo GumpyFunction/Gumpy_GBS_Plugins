@@ -10,5 +10,5 @@ Inverts the text background fill color in dialogue boxes to suit ASCII sheets wi
 
 Default background fill (left) and background fIll with Invert Dialogue Background Plugin applied (right)
 
-## How to Instal
+## How to Install
 Add the `plugins` folder to your projects root directory.
