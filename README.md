@@ -1,5 +1,6 @@
 # Gumpy_GBS_Plugins
 
+- by Gumpy Function (I'm hoping to share more in the future once I get a better handle on editing the engine)
 - Made with GB Studio 4.1
 
 ## Invert Dialogue Background Color
@@ -9,5 +10,5 @@ Inverts the text background fill color in dialogue boxes to suit ASCII sheets wi
 
 Default background fill (left) and background fIll with Invert Dialogue Background Plugin applied (right)
 
-## How to Instal
+## How to Install
 Add the `plugins` folder to your projects root directory.
