@@ -13,8 +13,8 @@
 #define TEXT_BUFFER_START 0xCCu
 #define TEXT_BUFFER_START_BANK1 0xC0u
 #define TEXT_BUFFER_LEN ((UBYTE)(0x100 - TEXT_BUFFER_START))
-#define TEXT_BKG_FILL_W 0xffu
-#define TEXT_BKG_FILL_B 0x00u
+#define TEXT_BKG_FILL_W 0x00u
+#define TEXT_BKG_FILL_B 0xffu
 #define TEXT_MAX_LENGTH 255
 
 #define UI_DEFAULT_PALETTE 7
@@ -49,6 +49,9 @@ extern UBYTE text_draw_speed;
 extern UBYTE text_ff_joypad;
 extern UBYTE text_ff;
 extern UBYTE text_bkg_fill;
+
+// added for Invert Dialogue Background Fill Color Plugin
+extern UBYTE text_invert_bkg_fill_color;
 
 extern unsigned char ui_text_data[TEXT_MAX_LENGTH];
 
