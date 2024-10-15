@@ -18,4 +18,6 @@ Add the `plugins` folder to your projects root directory.
 ## How to Use
 Enable or Disable the Plugin in your Project Settings under 'UI Elements+'.
 
+You can also toggle it on or off in a script using the 'Engine Field Update' event.
+
 ![invert_settings](https://github.com/user-attachments/assets/4c577d66-b688-4c3a-8909-e7a9f19f6ecc)
