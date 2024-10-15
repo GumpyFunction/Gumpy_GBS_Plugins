@@ -220,7 +220,14 @@ UBYTE ui_print_render(const unsigned char ch) {
     UBYTE letter = (vwf_current_font_desc.attr & FONT_RECODE) ? ReadBankedUBYTE(vwf_current_font_desc.recode_table + (ch & vwf_current_font_desc.mask), vwf_current_font_bank) : ch;
     const UBYTE * bitmap = vwf_current_font_desc.bitmaps + letter * 16u;
     if (vwf_current_font_desc.attr & FONT_VWF) {
-        vwf_inverse_map = (vwf_current_font_desc.attr & FONT_VWF_1BIT) ? text_bkg_fill : 0u;
+		
+			// added for Invert Dialogue Background Fill Color Plugin
+			if (text_invert_bkg_fill_color == 0) {
+					vwf_inverse_map = (vwf_current_font_desc.attr & FONT_VWF_1BIT) ? text_bkg_fill : 0u;
+			} else {
+					vwf_inverse_map = 0;
+			}
+			
         UBYTE width = ReadBankedUBYTE(vwf_current_font_desc.widths + letter, vwf_current_font_bank);
         if (vwf_direction == UI_PRINT_LEFTTORIGHT) {
             vwf_current_rotate = vwf_current_offset;
