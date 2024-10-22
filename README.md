@@ -21,6 +21,8 @@ Enable or Disable the Plugin in your Project Settings under 'UI Elements+'. You 
 
 ![invert_settings](https://github.com/user-attachments/assets/4c577d66-b688-4c3a-8909-e7a9f19f6ecc)
 
+Special thanks to Mike Leisz (Gud_Graphics) for assisting in the creation of this feature.
+
 ## Emote Bubble Duration
 Change the amount of time the Emote Bubble stays on screen for (in frames).
 
